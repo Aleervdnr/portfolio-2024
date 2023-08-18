@@ -1,0 +1,27 @@
+@font-face {
+  font-family: TheSignature;
+  src: url('./assets/Thesignature.2275572967a1d6158dd8.otf')
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+
+  .clip-open {
+
+    clip-path: polygon(0 0, 100% 0, 100% 4%, 0 21%);
+
+  }
+
+  .clip-close{
+    clip-path: polygon(0 17%, 100% 3%, 100% 29%, 0 29%);
+  }
+
+}
+
+@font-face {
+  font-family: TheSignature;
+  src: url('./assets/Thesignature.otf')
+}

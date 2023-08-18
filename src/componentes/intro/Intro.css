@@ -1,0 +1,54 @@
+.intro{
+    width: 100vw;
+    height: 100vh;
+    z-index: 1000;
+    background-color: #0F0F0F;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .text{
+    max-width: 700px;
+    margin: 0 auto;
+  }
+  
+  stop{
+    stop-color:#000000 ;
+    stop-opacity: 1;
+  }
+  
+  text{
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    font-stretch: normal;
+    font-size: 25.4px;
+    line-height: 0;
+    font-family: "TheSignature";
+    white-space: pre;
+    inline-size: 209.358;
+    display: inline;
+    fill: #000000;
+    stroke-width: 0.264583;
+  }
+  
+  .text path{
+  
+  fill:none;fill-opacity:1;stroke:#F48572;stroke-width:5.765;stroke-dasharray:none;stroke-opacity:1
+  }
+  
+  .text path{
+    stroke-dasharray: 8869;
+    
+    animation: animate 7s;
+  }
+  
+  @keyframes animate {
+    0%{
+      stroke-dashoffset: 8869;
+    }
+    100%{
+      stroke-dashoffset: 0;
+    }
+  }
