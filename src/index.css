@@ -15,8 +15,20 @@
 
   }
 
+  .clip-open-2 {
+
+    clip-path: polygon(0 0, 100% 0, 100% 21%, 0 4%);
+
+  }
+
+
+
   .clip-close{
     clip-path: polygon(0 17%, 100% 3%, 100% 29%, 0 29%);
+  }
+  
+  .clip-close-2{
+    clip-path: polygon(0 0, 100% 17%, 100% 29%, 0 29%);
   }
 
 }

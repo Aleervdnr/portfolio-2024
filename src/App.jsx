@@ -1,11 +1,9 @@
 import { useState, useEffect } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 import Intro from './componentes/intro/Intro'
 import Header from './componentes/Header'
 import Hero from './componentes/Hero'
-import { DividerClose, DividerOpen } from './componentes/Divider'
+import { DividerClose, DividerClose2, DividerOpen, DividerOpen2 } from './componentes/Divider'
 import AboutMe from './componentes/AboutMe'
 import Landing from './componentes/Landing'
 import Trabajos from './componentes/Trabajos'
@@ -30,6 +28,16 @@ useEffect(() => {
       <DividerClose/>
       <Landing/>
       <Trabajos/>
+      <DividerOpen2/>
+      <div className='bg-anaranjado py-4 px-6 lg:px-28 grid gap-4'>
+        <p className='text-[28px] leading-9 text-white text-center'>Tener una <span className='font-semibold'>Landing Page</span>, permitirá plasmar todo tu contenido en ella y todo lo que quieras reflejar sobre <span className='font-semibold'>Tu Negocio</span>.</p>
+        <a 
+                    className="block bg-naranja text-white w-fit py-4 px-5 border-2 rounded-lg m-auto font-bold"
+                    href="#">
+                        Quiero mi Landing Page!
+                </a>
+      </div>
+      <DividerClose2/>
     </div>
     :
     <div className="App">
