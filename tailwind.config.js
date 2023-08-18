@@ -32,7 +32,13 @@ export default {
         },
       },
       backgroundImage: {
-        'me': 'url("./src/assets/me1.jpeg")',
+        'me': "url('./src/assets/me1.jpeg')",
+        'quinta': "url('./src/assets/quinta.jpg')",
+        'bot': "url('./src/assets/bot.jpg')",
+      },
+      content: {
+        'quinta': "url('./src/assets/quinta.jpg')",
+        'bot': "url('./src/assets/bot.jpg')",
       },
     },
   },
