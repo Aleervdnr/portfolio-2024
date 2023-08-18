@@ -1,6 +1,6 @@
 export default function Trabajos() {
   return (
-    <div className="bg-fondo-negro py-4 px-6 lg:px-28 pb-8">
+    <div className="bg-fondo-negro py-4 px-6 lg:px-28 pb-12" id="trabajos">
 
         <h2 className="relative w-fit text-2xl text-anaranjado uppercase m-auto after:absolute after:w-full after:h-[2px] after:bg-anaranjado after:top-0 after:left-[-10px] before:absolute before:w-full before:h-[2px] before:bg-anaranjado before:bottom-0 before:right-[-10px] mb-6">Trabajos</h2>
 
