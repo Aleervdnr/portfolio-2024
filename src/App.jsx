@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import './App.css'
 import Intro from './componentes/intro/Intro'
-import Header from './componentes/Header'
+import Header from './componentes/header/Header'
 import Hero from './componentes/Hero'
 import { DividerClose, DividerClose2, DividerOpen, DividerOpen2 } from './componentes/Divider'
 import AboutMe from './componentes/AboutMe'
@@ -21,7 +21,7 @@ useEffect(() => {
 
   return (
     intro?
-    <div className="overflow-hidden min-h-screen relative font-poppins">
+    <div className="overflow-hidden relative font-poppins">
       <Header items={["sobre mi", "trabajos", "contacto"]} />
       <Hero/>
       <DividerOpen/>
