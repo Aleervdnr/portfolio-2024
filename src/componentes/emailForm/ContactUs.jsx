@@ -1,9 +1,12 @@
-import { useRef, useState } from 'react';
+import { useRef, useState,useEffect } from 'react';
 import emailjs from '@emailjs/browser';
 import { UseForm } from './useForm';
+import ButtonEmail from './ButtonEmail';
 
 export const ContactUs = () => {
   const form = useRef();
+
+  const [isClicked, setIsClicked] = useState(false)
 
   const initialForm = {
     user_name: "",
@@ -17,6 +20,12 @@ export const ContactUs = () => {
 
   const sendEmail = (e) => {
     e.preventDefault();
+
+    setIsClicked(true)
+    
+    setTimeout(() => {
+      setIsClicked(false)
+    }, 10000);
 
    emailjs.sendForm('service_r4h4g33', 'template_9ta6rwl', form.current, 'ilpLRDgBqmSbpG_Lb')
      .then((result) => {
@@ -54,15 +63,12 @@ export const ContactUs = () => {
       
       <textarea
         name="message" 
-        placeholder='Mensaje'
+        placeholder='Mensaje (Opcional)'
         value={message}
         onChange={onInputChange}
         className="bg-[#161616] border-[1px] border-[#222] p-2 focus:outline-none focus:border-anaranjado overflow-auto"/>
 
-      <input 
-        type="submit" 
-        value="Enviar Mensaje" 
-        className="bg-naranja text-sm text-white w-fit px-4 py-3 self-end " />
+        <ButtonEmail isClicked={isClicked} setIsClicked={setIsClicked} />
     </form>
   );
 };

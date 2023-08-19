@@ -18,7 +18,9 @@ export default {
       },
       animation: {
         'fadeIn': 'fadeIn 3s ease-out infinite',
+        'fadeInLow': 'fadeInLow 5s ease-out',
         'fadeIntro': 'fadeIntro 3s ease',
+        'sendEmail': 'leftToRight 10s ease',
       },
       keyframes: {
         fadeIn: {
@@ -29,6 +31,17 @@ export default {
         fadeIntro: {
           '0%': { opacity:0 },
           '100%': { opacity:1 },
+        },
+        fadeInLow: {
+          '0%': { opacity:0 },
+          '50%': { opacity:0 },
+          '100%': { opacity:1 },
+        },
+        leftToRight: {
+          '0%': { transform: 'translateX(-138px)' },
+          '30%': { transform: 'translateX(-5px)' },
+          '50%': { transform: 'translateX(-5px)' },
+          '100%': { transform: 'translateX(-138px)'  },
         },
       },
       backgroundImage: {
