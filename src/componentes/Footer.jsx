@@ -1,7 +1,9 @@
+import { ContactUs } from "./emailForm/ContactUs";
+
 export default function Footer() {
   return (
     <div className="bg-fondo-negro grid place-content-center py-4" id="contacto">
-        <form className="w-72 lg:w-[450px] flex flex-col gap-3 text-white" onSubmit={(e)=> e.preventDefault()}>
+        {/* <form className="w-72 lg:w-[450px] flex flex-col gap-3 text-white" onSubmit={(e)=> e.preventDefault()}>
             <input 
                 type="text" 
                 name="name" 
@@ -26,7 +28,8 @@ export default function Footer() {
             <button className="bg-anaranjado text-white w-fit px-3 py-2 self-end ">
               Enviar Mensaje
             </button>
-        </form>
+        </form> */}
+        <ContactUs/>
     </div>
   )
 }
