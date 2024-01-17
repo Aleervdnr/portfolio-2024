@@ -76,6 +76,16 @@ export default {
           letterSpacing: '-0.01em',
           fontWeight: '600',
         }],
+        'H5-med': ['1.44rem', {
+          lineHeight: '2rem',
+          letterSpacing: '-0.01em',
+          fontWeight: '500',
+        }],
+        'H5-semiBold': ['1.44rem', {
+          lineHeight: '2rem',
+          letterSpacing: '-0.01em',
+          fontWeight: '600',
+        }],
         'H6-reg': ['1.2rem', {
           lineHeight: '2rem',
           letterSpacing: '-0.01em',

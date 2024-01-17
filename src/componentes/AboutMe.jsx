@@ -6,7 +6,7 @@ export default function AboutMe() {
 
             <div className="max-w-[500px] lg:max-w-[520px] text-center text-white font-light leading-4">
                 <p className="mb-2 ">
-                    <span className="text-anaranjado text-[16px]">Hola!</span> me llamo Alejo y me dedico a crear <span className=" text-anaranjado">Landing Pages</span> para empresas y emprendimientos.
+                    <span className="text-anaranjado text-H6-med">Hola!</span> me llamo Alejo y me dedico a crear <span className=" text-anaranjado">Landing Pages</span> para empresas y emprendimientos.
                 </p>
                 <p className="mb-2">
                 Mi objetivo con las Landing Pages es poder generar <span className="text-anaranjado">conversiones.</span> En otras palabras... hacer que tus visitas se conviertan en una <span className="text-anaranjado">oportunidad de negocio.</span>
@@ -15,7 +15,7 @@ export default function AboutMe() {
                     Trabajo con desarrollo web <span className="text-anaranjado">100% a medida</span> y adaptable a todo tipo de resoluciones y dispositivos.
                 </p>
 
-                <h2 className="text-anaranjado font-bold text-xl mb-4">¿Qué esperas para tener tu Landing Page?</h2>
+                <h2 className="text-anaranjado text-H5-semiBold mb-4">¿Qué esperas para tener tu Landing Page?</h2>
 
                 <a 
                     className="block bg-anaranjado w-fit py-4 px-5 border-2 m-auto font-bold"
