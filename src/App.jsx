@@ -10,7 +10,7 @@ import Trabajos from './componentes/Trabajos'
 import Footer from './componentes/Footer'
 
 function App() {
-  const [intro, setIntro] = useState(true)
+  const [intro, setIntro] = useState(false)
 
 useEffect(() => {
   const timer = setTimeout(() => {
