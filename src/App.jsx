@@ -24,10 +24,10 @@ useEffect(() => {
     <div className="overflow-hidden relative font-poppins">
       <Header items={["sobre mi", "trabajos", "contacto"]} />
       <Hero/>
-      <DividerOpen/>
       <AboutMe/>
-      <DividerClose/>
+      <DividerOpen/>
       <Landing/>
+      <DividerClose/>
       <Trabajos/>
       <DividerOpen2/>
       <div className='bg-anaranjado py-8 lg:py-14 px-6 lg:px-28 grid gap-4'>

@@ -8,6 +8,7 @@ export default {
     extend: {
       colors: {
         'fondo-negro': '#0F0F0F',
+        'fondo-negro2': '#1E1E1E',
         "fondo-menu":"#222222",
         "anaranjado" : "#F48572",
         "naranja" : "#f15e44"
