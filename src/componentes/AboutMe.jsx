@@ -12,7 +12,7 @@ export default function AboutMe() {
                 Mi objetivo con las Landing Pages es poder generar <span className="text-anaranjado">conversiones.</span> En otras palabras... hacer que tus visitas se conviertan en una <span className="text-anaranjado">oportunidad de negocio.</span>
                 </p>
                 <p className="mb-4">
-                    Trabajo con diseño web <span className="text-anaranjado">100% a medida</span> y adaptable a todo tipo de resoluciones y dispositivos.
+                    Trabajo con desarrollo web <span className="text-anaranjado">100% a medida</span> y adaptable a todo tipo de resoluciones y dispositivos.
                 </p>
 
                 <h2 className="text-anaranjado font-bold text-xl mb-4">¿Qué esperas para tener tu Landing Page?</h2>
