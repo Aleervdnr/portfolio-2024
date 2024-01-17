@@ -21,7 +21,7 @@ export default function Header({items}) {
                             key={item}
                             className="relative overflow-hidden text-anaranjado capitalize grid place-content-center lg:p-0 hover:text-black after:bg-anaranjado after:w-full after:h-11 after:absolute after:-translate-y-12 after:hover:translate-y-0 after:z-0 after:transition-transform after:ease-linear after:duration-700 after:delay-0 transition-colors">
                             <a
-                                className="z-10 w-full grid place-content-center text-xl"
+                                className="z-10 w-full grid place-content-center lg:text-H6-reg"
                                 href={`#${item.split(' ').join('')}`}
                                 onClick={()=>setMenuIsOpen(`max-lg:translate-x-[400px]`)}
                                 >{item}</a>

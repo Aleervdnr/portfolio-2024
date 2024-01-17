@@ -10,7 +10,7 @@ import Trabajos from './componentes/Trabajos'
 import Footer from './componentes/Footer'
 
 function App() {
-  const [intro, setIntro] = useState(false)
+  const [intro, setIntro] = useState(true)
 
 useEffect(() => {
   const timer = setTimeout(() => {
@@ -21,7 +21,7 @@ useEffect(() => {
 
   return (
     intro?
-    <div className="overflow-hidden relative font-poppins">
+    <div className="overflow-hidden relative font-poppins text-[14px] lg:text-[16px]">
       <Header items={["sobre mi", "trabajos", "contacto"]} />
       <Hero/>
       <AboutMe/>

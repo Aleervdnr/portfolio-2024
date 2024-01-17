@@ -54,6 +54,49 @@ export default {
         'quinta': "url('./src/assets/quinta.jpg')",
         'bot': "url('./src/assets/bot.jpg')",
       },
+
+      fontSize: {
+        'H3-thin': ['2.074rem', {
+          lineHeight: '2rem',
+          letterSpacing: '-0.01em',
+          fontWeight: '100',
+        }],
+        'H3-reg': ['2.074rem', {
+          lineHeight: '2rem',
+          letterSpacing: '-0.01em',
+          fontWeight: '400',
+        }],
+        'H3-med': ['2.074rem', {
+          lineHeight: '2rem',
+          letterSpacing: '-0.01em',
+          fontWeight: '500',
+        }],
+        'H3-semiBold': ['2.074rem', {
+          lineHeight: '2rem',
+          letterSpacing: '-0.01em',
+          fontWeight: '600',
+        }],
+        'H6-reg': ['1.2rem', {
+          lineHeight: '2rem',
+          letterSpacing: '-0.01em',
+          fontWeight: '400',
+        }],
+        'H6-med': ['1.2rem', {
+          lineHeight: '2rem',
+          letterSpacing: '-0.01em',
+          fontWeight: '500',
+        }],
+        'H6-semiBold': ['1.2rem', {
+          lineHeight: '2rem',
+          letterSpacing: '-0.01em',
+          fontWeight: '600',
+        }],
+        '3xl': ['1.875rem', {
+          lineHeight: '2.25rem',
+          letterSpacing: '-0.02em',
+          fontWeight: '700',
+        }],
+      }
     },
   },
   plugins: [],
